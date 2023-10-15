@@ -427,6 +427,7 @@ RUN(NAME format_06 LABELS gfortran llvm)
 RUN(NAME format_07 LABELS gfortran llvm)
 RUN(NAME format_08 LABELS gfortran llvm)
 RUN(NAME format_09 LABELS gfortran llvm)
+RUN(NAME format_10 FAIL LABELS gfortran llvm)
 
 RUN(NAME submodule_01 LABELS gfortran)
 RUN(NAME submodule_02 LABELS gfortran)
@@ -1007,7 +1008,7 @@ RUN(NAME implicit_deallocate_01 LABELS gfortran llvm)
 
 RUN(NAME write_01 LABELS gfortran llvm)
 RUN(NAME write_02 LABELS gfortran llvm)
-RUN(NAME write_03 LABELS gfortran llvmImplicit NOFAST)
+RUN(NAME write_03 FAIL LABELS gfortran llvmImplicit NOFAST)
 RUN(NAME write_04 LABELS gfortran llvm)
 RUN(NAME write_05 LABELS gfortran llvm)
 
